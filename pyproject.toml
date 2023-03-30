@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "zunda-mv"
+version = "0.1.0"
+description = ""
+authors = ["OhkuboSGMS <ginger.os777146th@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zunda_mv"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fire = "^0.5.0"
+moviepy = "^1.0.3"
+srt = "^3.5.3"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
